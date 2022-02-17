@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial,Helvetica,sans-serif;
+    overflow-x: hidden;
+   
+}
+body::before{
+    content: "";
+    position: absolute;
+    background: url('cabody.jpg') no-repeat center fixed;
+    background-size: cover;
+    opacity: 0.5;
+    top: 0;left: 0;bottom: 0;right: 0;
+    z-index: -1;
+}
+#car{
+    width: 350px;
+    height: 135px;
+    position: relative;
+    margin-left: 100px;
+    background-image: url(taxi.png);
+}
+#pay{
+    position: absolute;
+    margin-top: 60px;
+    margin-left:-900px;
+    width: 200px;
+    height: 300px;
+    background-color: red;
+}
+#box{
+    margin-left: 100px;
+    width: 350px;
+    height: 400px;
+    position: relative;
+    background-color:white;
+    border-radius: 30px;
+}
+@keyframes car {
+    0%   {left: 0px;}
+    100%  {left: 95%;}
+}
+#city{
+    background-color: rgb(134, 134, 5);
+    border-radius: 40px;
+}
+#box ul{
+   
+    list-style-type: none;
+}
+#box ul li{
+    margin: 5px 13px;
+    padding: 10px 30px;
+    float: left;
+}
+#box ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+#box ul li a:hover{
+    color: darkgoldenrod;
+}
+ #out{
+    position: absolute;
+    visibility: hidden;
+}
+#cit{
+    position: absolute;
+    margin: 70px -15px;
+    text-align: left;
+}
+#out{
+    text-align: left;
+    margin: 80px -15px;
+}
+label ,select{
+    font-size: larger;
+    width: 40%;
+    margin-left: 45px;
+}
+input{
+    text-align: left;
+    padding: 10px 5px;
+    width: 100%;
+    margin: 8px 50px;
+}
+#box button{
+	background-color: rgb(104, 104, 24);
+    color: white;
+    font-size: larger;
+    padding: 14px 20px;
+    margin-top: 10px;
+	margin-left: 100px;
+	border: none;
+	cursor: pointer;
+	width: 60%;
+	opacity: 0.8;
+} 
+#box button:hover{
+	opacity: 1;
+}
+nav{
+    width:100% ; height: 15vh;
+    background: rgba(0,0,0,0.4);
+    color:white;  display: flex; justify-content: space-between;
+    align-items: center; text-transform: uppercase;
+  }
+nav .logo{
+    width:25%; text-align: center;
+  }
+nav .menu{
+    width: 40%;
+    display: flex; justify-content: space-around;
+    font-weight:bold;
+  }
+nav .menu a{
+    width:25%;
+    padding: 12px 10px;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none; color:white;
+}
+nav .menu a:hover{
+    background-color:lightgrey;
+}
+  nav .menu a:active{
+      color:grey;
+  
+  
+}
+.read{
+    width: 450px;
+    position: absolute;
+    top: 180px;
+    right: 60px;
+    font-size: 80px;
+    font-weight: bold;
+    z-index: -1;
+}
+.about{
+    margin-top: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+.det{
+    display: flex;
+   text-align: center;
+   margin-left: 100px;
+}
+.city_taxi,.out_taxi{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0px 0px 20px 5px black;
+    border-radius: 10px;
+    margin: 30px 80px;
+    background-color: white;
+    width: 400px;
+}
+.city_taxi img,.out_taxi img{
+    width: 400px;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.about h2{
+    margin-top: 5px;
+    margin-left: 10px;
+    text-align: left;
+}
+.city_taxi p,.out_taxi p{
+    word-spacing:5px;
+    line-height: 20px;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: left;
+    font-weight: lighter;
+}
+.footer{
+    margin-top: 40px;
+    width: 100%;
+    padding: 30px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+}
+.mail{
+    margin-left: 450px;
+}
+.mail input{
+    margin: auto;
+    width: 300px;
+    padding: 15px 10px;
+    margin-bottom: 8px;
+}
+.mail input:hover{
+   background-color: lightgray;
+}
+.mail button{
+    background-color: orange;
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 150px;
+}
+.mail button img{
+    margin-right: 5px;
+}
+.contact{
+    margin-left: 80px;
+    display: flex;
+}
+.contact a{
+    text-decoration: none;
+}
+.follow{
+   margin-left: 570px;
+}
+.flw {
+    padding-top:20px;
+   margin: auto;
+}
+.flw img{
+    margin-left: 10px;
+    width: 30px;
+}

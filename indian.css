@@ -1,0 +1,98 @@
+.state{
+	font-size: 200%;
+}
+body{
+  background-size: 100% 100%;
+  background:url(flag.jpg),url(flag.jpg) no-repeat;
+}
+.fire{
+	font-size: 200%;
+}
+table,td,th{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+nav{
+width:100% ; height: 15vh;
+background: rgba(0,0,0,0.4);
+color:white;  display: flex; justify-content: space-between;
+align-items: center; text-transform: uppercase;
+}
+
+
+nav .logo{
+  margin-top: 2%;
+  width:25%; text-align: center;
+}
+
+nav .menu{
+  width: 40%;
+  display: flex; justify-content: space-around;
+  font-weight:bold;
+}
+
+nav .menu a{
+  width:25%;
+  padding: 12px 10px;
+  text-align: center;
+  border-radius: 20px;
+  text-decoration: none; color:white;
+}
+
+nav .menu a:hover{
+  background-color:lightgrey;
+}
+
+nav .menu a:active{
+    color:grey;
+}
+.footer{
+    margin-top: 40px;
+    width: 100%;
+    padding: 30px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+}
+.mail{
+    margin-left: 450px;
+}
+.mail input{
+    margin: auto;
+    width: 300px;
+    padding: 15px 10px;
+    margin-bottom: 8px;
+}
+.mail input:hover{
+   background-color: lightgray;
+}
+.mail button{
+    background-color: orange;
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 150px;
+}
+.mail button img{
+    margin-right: 5px;
+}
+.contact{
+    margin-left: 80px;
+    display: flex;
+}
+.contact a{
+    text-decoration: none;
+}
+.follow{
+   margin-left: 570px;
+}
+.flw {
+    padding-top:20px;
+   margin: auto;
+}
+.flw img{
+    margin-left: 10px;
+    width: 30px;
+}

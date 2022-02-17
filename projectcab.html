@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylecab.css">
+    <script src="cab.js"></script>
+    <link rel="stylesheet" href="stylepayment.css">
+</head>
+<body>
+    <nav>
+        <div class="logo"><img src="emblem.jpeg" height="50px" width="70px"><h1 class="animate_heartBeat animate_infinite" ><span style="color: green">Ministry </span> <span>Of </span><span style="color: orange">Tourism</span></h1></div></h1></div>
+        <div class="menu">
+             <a href="index.html">Home</a>
+             <a href="https://www.google.com/search?q=india+images&rlz=1C1CHBF_enIN882IN882&sxsrf=ALeKk017wApx3EESf8_s_iqKV4-7S0KQCA:1595826225017&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi0tI_60-zqAhVTyjgGHfuzCpkQ_AUoAXoECA0QAw&biw=1360&bih=663" target="_blank">gallery</a>
+             <a href="#about">About</a>
+             <a href="#con">Contact us</a>
+        </div>
+  </nav>
+    <div id="pay">
+        <div class="left">
+           <a href="#" id="credit" onclick="myfunction1()">Credit Card &rarr;</a>
+           <a href="#" id="debit" onclick="myfunction2()">Debit Card &rarr;</a>
+           <a href="#" id="nb" onclick="myfunction3()">Net Banking &rarr;</a>
+           <a href="#" id="wallet" onclick="myfunction4()">Wallet &rarr;</a>
+           <a href="#" id="upi" onclick="myfunction5()">UPI &rarr;</a>
+        </div>
+        <div class="right">
+            <div id="rt_box">
+                <h2>Welcome To Payment Gateway</h2>
+                <p><i>Choose your Payment option to pay</i></p>
+            </div>
+            <div id="cred">
+                <div class="header">
+                    <h2>Amount: 2000 INR</h2>
+                    <img src="visa.png">
+                </div>
+                <div class="body">
+                    <form action="/form.file">
+                        <p>Card Holder's Name</p>
+                        <input type="text" placeholder="Name" required>
+                        <p>Credit Card Number</p>
+                        <input type="text" placeholder="1234 5678 9012 3456" required maxlength="16" size="16" pattern="{4}-{4}-{4}-{4}">
+                        <div class="expiry">
+                            <div>
+                                <p>Expiry Date</p>
+                                <input type="text" style="width: 70px;" placeholder="MM / YY">
+                            </div>
+                            <div class="cvv">
+                                <p>CVV</p>
+                                <input type="cvv" placeholder="123" required maxlength="3" size="3">
+                            </div>
+                        </div>
+                        <br>
+                    </form>
+                </div>
+                <div>
+                    <button type="submit" class="submit">Make Payment</button>
+                </div>
+            </div>
+            <div id="deb">
+                <div class="header">
+                    <h2>Amount: 2000 INR</h2>
+                    <img src="visa.png">
+                </div>
+                <div class="body">
+                    <form action="/form.file">
+                        <p>Card Holder's Name</p>
+                        <input type="text" placeholder="Name" name="name" required>
+                        <p>Debit Card Number</p>
+                        <input type="text" placeholder="1234 5678 9012 3456" required maxlength="16" size="16" pattern="{4}-{4}-{4}-{4}">
+                        <div class="expiry">
+                            <div>
+                                <p>Expiry Date</p>
+                                <input type="text" style="width: 70px;" placeholder="MM / YY">
+                            </div>
+                            <div class="cvv">
+                                <p>CVV</p>
+                                <input type="cvv" placeholder="123" required maxlength="3" size="3">
+                            </div>
+                        </div>
+                        <br>
+                    </form>
+                </div>
+                <div>
+                    <button type="submit" class="submit">Make Payment</button>
+                </div>
+            </div>
+            <div id="n_b">
+
+            </div>
+            <div id="wall">
+                <a href="#"><img src="paytm.jpg"></a>
+                <a href="#"><img src="amazon.png"></a>
+                <a href="#"><img src="paypal.png"></a>
+                <a href="#"><img src="mobikwik.png"></a>
+            </div>
+            <div id="bhim">
+                <img src="upi.jpg">
+                <div class="bh">
+                    <h3>Enter your UPI I'd</h3>
+                    <input type="text"><br>
+                    <button>Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="payment.js"></script>
+    <div id="car"></div>   
+    <div id="box">
+        <ul>
+            <li onclick="mycity()" id="city"><a href="#">CITY</a></li>
+            <li onclick="myouts()" id="outstation"><a href="#">OUTSTATION</a></li>
+        </ul>
+        <div id="cit">
+            <form method="dialog">
+                <label>Type</label>
+                <select>
+                    <option value="One Way" onclick="my1way()" selected>One way</option>
+                    <option value="Two Way" onclick="my2way()" >Two way</option>
+                </select><br>
+                <input type="text" placeholder="Pickup" required><br>
+                <input type="text" placeholder="Drop" required><br>
+                <input type="date" required><br>
+                <input type="time" required><br>
+                <button onclick="mybook()">Book</button>
+            </form>
+        </div>
+        <div id="out">
+            <form>
+                <input type="text" placeholder="Pickup"><br>
+                <input type="text" placeholder="Drop"><br>
+                <input type="date"><br>
+                <input type="time"><br>
+                <button onclick="mybook()">Book</button>
+            </form>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <p style="font-size: 40px;">About us</p>
+        <div class="det">
+            <div class="city_taxi">
+               <img src="city_image.jpg">
+               <h2>CITY</h2>
+               <p>The perfect way to get through your everyday travel needs. City taxis are available 24/7 and you can book and travel in an instant. With rides starting from as low as Rs. 6/km, you can choose from a wide range of options! You can also opt to do your bit for the environment with Ola Share!</p>
+            </div>
+            <div class="out_taxi">
+               <img src="out_image.jpg">
+               <h2>OUTSTATION</h2>
+               <p>Ride out of town at affordable one-way and round-trip fares with Ola’s intercity travel service. Choose from a range of AC cabs driven by top partners, available in 1 hour or book upto 7 days in advance. We have you covered across India with presence in 90+ cities with over 500 one way routes.</p>   
+            </div>
+        </div>
+    </div>
+    <div class="footer" id="con">
+         <div class="contact">
+             <p style="font-size: 25px;margin-bottom: 15px;">Contact Us :</p>
+             <a href="#"><img style="float: left;width: 30px;" src="call.png"><p style="color:white;">+91 8853009697</p></a>
+             <a href="#"><img style="float: left;width: 30px;" src="call.png"><p style="color:white;">+91 8360874726</p></a>
+             <div class="mail">
+                <input type="email" placeholder="Enter Your E-mail"><br>
+                <button><img width="22px" src="mail.png">Mail Us</button>
+             </div>
+         </div><br><br>
+         <hr><br>
+         <div class="follow">
+            <p style="font-size: 25px;">Follow Us on:</p>
+            <div class="flw">
+                    <a href="#"><img src="facebook.png"></a>
+                    <a href="#"><img src="instagram.png"></a>
+                    <a href="#"><img src="twitter.png"></a>
+            </div>
+         </div>
+        <p style="text-align: center;font-size: 12px;margin-top: 25px;">Copyright &copy;2020 All Rights Reserved to RATH Developers</p>
+    </div>
+</body>    
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+	background: url('dubai.jpg') no-repeat;
+	background-size: cover;
+}
+nav{
+width:100% ; height: 15vh;
+background: rgba(0,0,0,0.4);
+color:white;  display: flex; justify-content: space-between;
+align-items: center; text-transform: uppercase;
+}
+
+
+nav .logo{
+  width:25%; text-align: center;
+}
+
+nav .menu{
+  width: 40%;
+  display: flex; justify-content: space-around;
+  font-weight:bold;
+}
+
+nav .menu a{
+  width:25%;
+  padding: 12px 10px;
+  text-align: center;
+  border-radius: 20px;
+  text-decoration: none; color:white;
+}
+
+nav .menu a:hover{
+  background-color:lightgrey;
+}
+
+nav .menu a:active{
+    color:grey;
+}
+       .main{
+		   text-align: center;
+	   }
+		.name h1{
+			font-size: 60;
+			letter-spacing: 10px;
+			color: chocolate;
+		}
+	    section a{
+	        top: 75%;
+            left: 35%;
+            position: absolute;
+            border-radius: 4px;
+            outline: none;
+            text-transform: uppercase;
+            font-size: 20px;
+            font-weight: 500;
+            text-decoration: none;
+            letter-spacing: 1px;
+            transition: all .5s ease;
+
+		}
+		.nat{
+			background-color: white;
+		}
+        section .tho{
+               background: orange;
+               color: #000;
+               padding: 12px 30px;
+        }
+        .tho:hover{
+        	background: green;
+            color: white;
+        }
+        section .cap{
+        	background: orange;
+        	color: #000;
+        	left: 46%;
+        	padding: 12px 30px;
+        }
+        .cap:hover{
+        	background: green;
+        	color: white;
+        }
+
+
+		.q{
+			height: 300px;
+			width: 350px;
+			background-color: black;
+			top: 25%;
+			left: 35%;
+			opacity: 0.7;
+			position: absolute;
+			color: white;
+		}
+		.q ul{
+			margin-left: 50px;
+			margin-top: 20px;
+		}
+		.q li{
+			font-size: 20px;
+			padding: 15px 20px;
+		}
+        li:hover{
+        	color: mediumspringgreen;
+        	text-decoration: underline;
+        }
+		main{
+			width:100%;
+  height:85vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+		}
+    .footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 30px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: black;
+    opacity: 0.7;
+}
+.mail{
+    margin-left: 450px;
+}
+.mail input{
+    margin: auto;
+    width: 300px;
+    padding: 15px 10px;
+    margin-bottom: 8px;
+}
+.mail input:hover{
+   background-color: lightgray;
+}
+.mail button{
+    background-color: orange;
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 150px;
+}
+.mail button img{
+    margin-right: 5px;
+}
+.contact{
+    margin-left: 80px;
+}
+.contact a{
+    text-decoration: none;
+}
+.follow{
+   margin-left: 570px;
+}
+.flw {
+    padding-top:20px;
+   margin: auto;
+}
+.flw img{
+    margin-left: 10px;
+    width: 30px;
+}
+	</style>
+</head>
+<body>
+	<nav>
+      <div class="logo"><img src="emblem.jpeg" height="50px" width="70px"><h1 class="animate_heartBeat animate_infinite" ><span style="color: orange;">Ministry</span><span> Of</span><span style="color: green;"> Tourism</span></h1></div>
+      <div class="menu">
+           <a href="index.html">Home</a>
+           <a href="https://www.google.com/search?q=india+images&rlz=1C1CHBF_enIN882IN882&sxsrf=ALeKk017wApx3EESf8_s_iqKV4-7S0KQCA:1595826225017&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi0tI_60-zqAhVTyjgGHfuzCpkQ_AUoAXoECA0QAw&biw=1360&bih=663" target="_blank">gallery</a>
+           <a href="http://tourism.gov.in" target="_blank">About</a>
+           <a href="#">Contact us</a>
+      </div>
+	</nav>
+	
+	<div class="main">
+		<div class="name"><h1><span class="nat">WELCOME TO HOTEL IVY</span></h1></div>
+	</div>
+	<main>
+            <section>			
+			<a href="https://www.oyorooms.com/hotels-in-the-mall-road-manali-manali" class="cap" target="_blank">Book A Room</a>
+			<a href="login.html" class="tho" target="_blank">Log In</a>
+			</section>
+	</main>		
+<div class="q">
+	<h1 style="text-align: center;color: yellow;">Our Services</h1>
+	<ul>
+		<li><p>Best Rates Guranteed</p></li>
+	    <li><p>WiFi Access</p></li>
+	    <li><p>100% Hygenic</p></li>
+	    <li><p>Exclusive</p></li>
+	</ul>
+</div>
+<div class="footer" id="con">
+         <div class="contact">
+          <div>
+             <p style="font-size: 25px;margin-bottom: 15px;">Contact Us :</p>
+             <a href="#"><img style="float: left;width: 30px;" src="call.png"><p style="color:white;">+91 8853009697</p></a>
+             <a href="#"><img style="float: left;width: 30px;" src="call.png"><p style="color:white;">+91 8360874726</p></a>
+             </div>
+             <div class="mail">
+                <input type="email" placeholder="Enter Your E-mail"><br>
+                <button><img width="22px" src="mail.png">Mail Us</button>
+             </div>
+         </div><br><br>
+         <hr><br>
+         <div class="follow">
+            <p style="font-size: 25px;">Follow Us on:</p>
+            <div class="flw">
+                    <a href="#"><img src="facebook.png"></a>
+                    <a href="#"><img src="instagram.png"></a>
+                    <a href="#"><img src="twitter.png"></a>
+            </div>
+         </div>
+        <p style="text-align: center;font-size: 12px;margin-top: 25px;">Copyright &copy;2020 All Rights Reserved to RATH Developers</p>
+    </div>
+</body>
+</html>

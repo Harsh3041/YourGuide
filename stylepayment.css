@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial,Helvetica,sans-serif;
+    background-color: rgb(80, 119, 158);
+}
+
+#pay{
+    border-radius: 30px;
+    position: absolute;
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    display: flex;
+}
+
+#pay .left{
+    border-radius: 30px;
+    flex: 40%;
+    background-color: dodgerblue;
+    padding: 2px 8px;
+}
+
+#pay .left a{
+    border-radius: 10px;
+    text-align: right;
+    color: beige;
+    margin-top: 25px;
+    padding:10px 0;
+    font-size: 25px;
+    text-decoration: none;
+    display: block;
+}
+
+#pay .left a:hover{
+    font-size: 30px;
+    color: rgba(228, 222, 222, 0.7);
+    background-color: rgb(58, 80, 110,0.7);
+    box-shadow: 20px 0px 8px rgb(46, 77, 136,0.8);
+}
+
+#pay .right{
+    flex: 70%;
+}
+#rt_box{
+    position: absolute;
+    padding: 30px 20px;
+}
+#rt_box h2{
+  font-size: 50px;
+}
+#rt_box p{
+    font-size: 30px;
+    margin-top: 40px;
+}
+#pay .header{
+    display: flex;
+    margin: 20px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+
+}
+#pay .header h3{
+    width: 220px;
+}
+#pay .header img{
+    padding-top: 40px;
+    flex: 30%;
+    width: 120px;
+}
+
+#pay .body{
+    padding: 0px 40px;
+    font-weight: bold;
+}
+
+#pay input{
+    width: 250px;
+	padding: 5px;
+	margin: 8px 0px 20px 0px;
+	border: none;
+	background: hsl(0, 7%, 92%);
+}
+
+#pay .expiry{
+    display: flex;
+}
+#pay input[type="cvv"]
+{
+    width: 50px;
+}
+#pay .cvv{
+    padding-left: 40px;
+}
+#cred, #deb, #n_b, #wall, #bhim{
+    position: absolute;
+    visibility: hidden;
+}
+#pay input:focus{
+	background-color: rgb(195, 195, 195);
+	outline: none;
+}
+#pay .submit{
+    font-size:20px;
+    margin: 0px 40px;
+    background-color: #4CAF50;
+	color: white;
+	padding: 15px 0px;
+	border: none;
+	cursor: pointer;
+	width: 80%;
+	opacity: 0.6;
+}
+#pay .submit:hover{
+    opacity: 1;
+    font-size: 22px;
+}
+#wall{
+    padding: 35px 80px;
+}
+#wall img{
+    margin-bottom: 50px;
+  width: 150px;
+}
+
+#bhim img{
+  width: 180px;
+}
+.bh{
+    text-align: center;
+}
+#bhim input{
+    margin-left: 40px;
+    width: 200px;
+    margin-bottom: 50px;
+}
+
+.bh button{
+    background-color: rgb(64, 136, 196);
+    opacity: 0.7;
+    color: aliceblue;
+    padding: 5px 50px;
+    font-size: 25px;
+    border: none;
+}
+
+.bh button:hover{
+    opacity: 1;
+}

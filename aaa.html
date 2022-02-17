@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+	background: url('dubai.jpg') no-repeat;
+	background-size: cover;
+}
+nav{
+width:100% ; height: 15vh;
+background: rgba(0,0,0,0.4);
+color:white;  display: flex; justify-content: space-between;
+align-items: center; text-transform: uppercase;
+}
+
+
+nav .logo{
+  width:25%; text-align: center;
+}
+
+nav .menu{
+  width: 40%;
+  display: flex; justify-content: space-around;
+  font-weight:bold;
+}
+
+nav .menu a{
+  width:25%;
+  padding: 12px 10px;
+  text-align: center;
+  border-radius: 20px;
+  text-decoration: none; color:white;
+}
+
+nav .menu a:hover{
+  background-color:lightgrey;
+}
+
+nav .menu a:active{
+    color:grey;
+}
+       .main{
+		   text-align: center;
+	   }
+		.name h1{
+			font-size: 60;
+			letter-spacing: 10px;
+			color: rgb(85, 84, 84);
+		}
+		
+		.login{
+			color: white;
+			opacity: 0.7;
+		    padding: 30px;
+			background-color: black;
+			height: 200px;
+			width: 400px;
+			position: absolute;
+			top: 35%;
+            left: 40%;
+            padding-left: 90px;
+		}
+		.q{
+			height: 300px;
+			width: 350px;
+			background-color: black;
+			top: 40%;
+			left: 5%;
+			opacity: 0.7;
+			position: absolute;
+			color: white;
+		}
+		.q ul{
+			margin-left: 50px;
+			margin-top: 20px;
+		}
+		.q li{
+			font-size: 20px;
+			padding: 15px 20px;
+		}
+	</style>
+</head>
+<body>
+	<nav>
+      <div class="logo"><img src="emblem.jpg" height="50px" width="70px"><h1 class="animate_heartBeat animate_infinite" >Ministry Of Tourism</h1></div>
+      <div class="menu">
+           <a href="projectaj.html">Home</a>
+           <a href="https://www.google.com/search?q=india+images&rlz=1C1CHBF_enIN882IN882&sxsrf=ALeKk017wApx3EESf8_s_iqKV4-7S0KQCA:1595826225017&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi0tI_60-zqAhVTyjgGHfuzCpkQ_AUoAXoECA0QAw&biw=1360&bih=663" target="_blank">gallery</a>
+           <a href="http://tourism.gov.in" target="_blank">About</a>
+           <a href="#">Contact us</a>
+      </div>
+	</nav>
+	
+	<div class="main">
+		<div class="name"><h1>WELCOME TO HOTEL IVY</h1></div>
+	</div>
+
+<div class="login">
+	<div class="l1"><label for="uname"></label><p>username</p><br></div>
+	<div class="l2"><input type="text"><br></div>
+	<div class="l3"><p>password</p><br></div>
+	<div class="l4"><input type="text"><br></div>
+	<br>
+<div class="l5"><input type="button" value="login"></div>
+</div>
+
+<div class="q">
+	<h1 style="text-align: center;color: burlywood;">Our Services</h1>
+	<ul>
+		<li><p>Best Rates Guranteed</p></li>
+	    <li><p>WiFi Access</p></li>
+	    <li><p>100% Hygenic</p></li>
+	    <li><p>Exclusive</p></li>
+	</ul>
+</div>
+</body>
+</html>
