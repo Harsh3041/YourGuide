@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body{
+       background: url('images/dubai.jpeg') no-repeat;
+       background-size: cover;
+   }
+   nav{
+   width:100% ; height: 15vh;
+   background: rgba(0,0,0,0.4);
+   color:white;  display: flex; justify-content: space-between;
+   align-items: center; text-transform: uppercase;
+   }
+   
+   
+  .logo img{
+    width: 90px;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    border-radius: 10px;
+  }
+   
+   nav .menu{
+     width: 40%;
+     display: flex; justify-content: space-around;
+     font-weight:bold;
+   }
+   
+   nav .menu a{
+     width:25%;
+     padding: 12px 10px;
+     text-align: center;
+     border-radius: 20px;
+     text-decoration: none; color:white;
+   }
+   
+   nav .menu a:hover{
+     background-color:lightgrey;
+   }
+   
+   nav .menu a:active{
+       color:grey;
+   }
+          .main{
+              text-align: center;
+          }
+           .name h1{
+               font-size: 60;
+               letter-spacing: 10px;
+               color: chocolate;
+           }
+           section a{
+               top: 75%;
+               left: 35%;
+               position: absolute;
+               border-radius: 4px;
+               outline: none;
+               text-transform: uppercase;
+               font-size: 20px;
+               font-weight: 500;
+               text-decoration: none;
+               letter-spacing: 1px;
+               transition: all .5s ease;
+   
+           }
+           .nat{
+               background-color: white;
+           }
+           section .tho{
+                  background: orange;
+                  color: #000;
+                  padding: 12px 30px;
+           }
+           .tho:hover{
+               background: green;
+               color: white;
+           }
+           section .cap{
+               background: orange;
+               color: #000;
+               left: 46%;
+               padding: 12px 30px;
+           }
+           .cap:hover{
+               background: green;
+               color: white;
+           }
+   
+   
+           .q{
+               height: 300px;
+               width: 350px;
+               background-color: black;
+               top: 25%;
+               left: 35%;
+               opacity: 0.7;
+               position: absolute;
+               color: white;
+           }
+           .q ul{
+               margin-left: 50px;
+               margin-top: 20px;
+           }
+           .q li{
+               font-size: 20px;
+               padding: 15px 20px;
+           }
+           li:hover{
+               color: mediumspringgreen;
+               text-decoration: underline;
+           }
+           main{
+               width:100%;
+     height:85vh;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     color: white;
+           }
+       .footer{
+       margin-top: 150px;
+       width: 100%;
+       padding: 30px;
+       padding-bottom: 10px;
+       color: white;
+       background-color: black;
+       opacity: 0.7;
+   }
+   .mail{
+       margin-left: 450px;
+   }
+   .mail input{
+       margin: auto;
+       width: 300px;
+       padding: 15px 10px;
+       margin-bottom: 8px;
+   }
+   .mail input:hover{
+      background-color: lightgray;
+   }
+   .mail button{
+       background-color: orange;
+       margin: auto;
+       color: white;
+       text-align: center;
+       padding: 10px;
+       width: 150px;
+   }
+   .mail button img{
+       margin-right: 5px;
+   }
+   .contact{
+       margin-left: 80px;
+   }
+   .contact a{
+       text-decoration: none;
+   }
+   .follow{
+      margin-left: 570px;
+   }
+   .flw {
+       padding-top:20px;
+      margin: auto;
+   }
+   .flw img{
+       margin-left: 10px;
+       width: 30px;
+   }
+   .main-header{
+      box-shadow: 1px 1px 10px  black;;
+   }

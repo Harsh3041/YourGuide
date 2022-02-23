@@ -1,0 +1,192 @@
+*{ 
+    margin:0px; 
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+       width:100%;
+       height: 100vh;
+       animation: changebackground 20s infinite linear;
+       background: no-repeat fixed center;
+       background-size: cover;
+       background-size: 100% 100%;
+}
+.no-padding{
+  padding: 0px;
+}
+
+#more{
+  visibility: hidden;
+  position: absolute;
+  top:15%;
+  right: 10%;
+  background-color:rgba(0,0,0,0.4) ;
+}
+.arrow {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  margin-left: 5px;
+  padding: 4px;
+  transform: rotate(45deg);
+}
+
+#more ul{
+  list-style-type: none;
+  align-items: center; text-transform: uppercase;
+}
+#more ul li{
+  padding: 10px 5px;
+  margin-bottom: 10px;
+}
+#more ul li a{
+  padding:10px 0px;
+  text-decoration: none;
+  color: white;
+  font-weight:bold;
+}
+#more ul li:hover{
+  background-color:lightgrey;
+}
+#more ul li:active{
+  color: grey;
+}
+nav{
+  width:100% ; height: 15vh;
+  background: rgba(0,0,0,0.4);
+  color:white;  
+  display: flex; 
+  justify-content: space-between;
+  align-items: center; 
+  text-transform: uppercase;
+  box-shadow: 1px 1px 10px  black;
+}
+.logo{
+  display: flex;
+ align-self: center;
+  align-items: center;
+  padding: 20px;
+}
+.logo img{
+  border-radius: 10px;
+} 
+nav .menu{
+  width: 40%;
+  display: flex; 
+  justify-content: space-around;
+  font-weight:bold;
+  
+}
+nav .menu a{
+  width:25%;
+  padding: 12px 10px;
+  text-align: center;
+  border-radius: 20px;
+  text-decoration: none; color:white;
+}
+
+nav .menu a:hover{
+  background-color:lightgrey;
+}
+
+nav .menu a:active{
+    color:grey;
+  }
+nav.menu a:first-child{
+  color: #00b894;
+}
+
+main{
+  width:100%;
+  height:85vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+
+section h3{
+  font-size:35px; font-weight: 200; letter-spacing: 3px;
+  text-shadow: 1px 1px 2px black;
+}
+section h1{
+  margin: 30px 0 20px 0;
+  font-size: 55px;
+  font-weight: 700;
+  text-shadow: 2px 1px 5px black;
+  text-transform: uppercase;
+}
+
+section p{
+  font-size: 25px;
+  word-spacing: 2px;
+  margin-bottom: 25px;
+  text-shadow: 1px 1px 1px black;
+  
+}
+
+section a{
+  padding: 12px 30px;
+  border-radius: 4px;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: all .5s ease-in-out;
+}
+section a:hover{
+  text-decoration: none;
+}
+section .btnone{
+  background: #fff;
+  color: #000
+}
+
+.btnone:hover{
+  background: #00b894;
+  color: white;
+}
+
+section .btntwo{
+  background: #fff;
+  color: #000
+}
+
+.btntwo:hover{
+  background: #00b894;
+  color: white;
+}
+
+@keyframes changebackground{
+    0%{background-image: url('images/golden.jpeg');}
+  25%{background-image: url('images/himachal.jpeg');}
+  50%{background-image: url('images/redfort.jpeg');}
+  75%{background-image: url('images/tajmahal.jpeg');}
+  100%{background-image: url('images/hawamahal.jpeg');}
+  }
+
+.change_content:after{
+  content:'';
+  animation: changetext 20s infinite linear;
+
+}
+
+@keyframes changetext{
+  0%{content:"Punjab";color: green;}
+  25%{content:"Himachal Pradesh";color: aqua;}
+  50%{content:"Delhi";color: lightsalmon;}
+  75%{content:"Uttar Pradesh";color: orange;}
+  100%{content:"Jaipur";color: pink;}
+}
+
+.main-heading h3{
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  font-size: 50px;
+}
