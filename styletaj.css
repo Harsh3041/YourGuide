@@ -148,11 +148,11 @@ section .btntwo{
 }
 
 @keyframes changebackground{
-    0%{background-image: url('golden.jpeg');}
-  25%{background-image: url('himachal.jpeg');}
-  50%{background-image: url('redfort.jpg');}
-  75%{background-image: url('tajmahal.jpg');}
-  100%{background-image: url('hawamahal.jpeg');}
+    0%{background-image: url('images/golden.jpeg');}
+  25%{background-image: url('images/himachal.jpeg');}
+  50%{background-image: url('images/redfort.jpeg');}
+  75%{background-image: url('images/tajmahal.jpeg');}
+  100%{background-image: url('images/hawamahal.jpeg');}
   }
 
 .change_content:after{
