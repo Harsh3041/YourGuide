@@ -13,4 +13,4 @@ A website build using HTML, CSS and Javascript. It is the mini guide for tourist
 
 
 ## Screenshots
-![1!]{/Users/harshsharma/YourGuide/img copy.png}
+![1!](/Users/harshsharma/YourGuide/img copy.png)
