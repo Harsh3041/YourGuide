@@ -7,9 +7,9 @@ A website build using HTML, CSS and Javascript. It is the mini guide for tourist
 
 ## Technologies 
 
- - HTML
- - CSS
- - JS
+ <img src="https://user-images.githubusercontent.com/87407097/155483794-3bea8139-0488-447c-a91b-7124509f99a8.svg" style="width: 25px" /> HTML<br><br>
+ <img src="https://user-images.githubusercontent.com/87407097/155484080-186a23bc-39cb-4f39-b6f9-e154fc645209.svg" style="width: 25px" /> CSS<br><br>
+ <img src="https://user-images.githubusercontent.com/87407097/155484554-37189555-7b1a-4dda-a875-679ed91fd0fc.svg" style="width: 25px"/> JS
 
 
 ## Screenshots
